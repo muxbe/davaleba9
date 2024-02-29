@@ -4,6 +4,20 @@
   width: 90%;
   margin: 0 auto;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(6, 6, 202);
+  color: white;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-weight: lighter;
+}
+.img {
+  max-width: 28px;
+  max-height: 29px;
+}
 .background {
   background-color: rgb(6, 6, 202);
   height: 100vh;
@@ -13,7 +27,7 @@
   display: grid;
   vertical-align: center;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  border: 1px solid white;
+
   gap: 10px;
   grid-template-areas:
     "lorem culpa officia officia"
@@ -25,6 +39,7 @@
 .section {
   background-color: white;
   grid-auto-rows: minmax(200px, auto);
+  color: rgb(6, 6, 202);
 }
 .section:nth-child(1) {
   display: flex;
